@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}  
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #001f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.intro {
+    width: 60%;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.intro button {
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sidebar / Primary Unit */
+.info-box {
+    width: 35%;
+    background-color: white;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.info-box h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.info-box ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.info-box li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    list-style-type: none;
+}
